@@ -1,0 +1,150 @@
+.banner{
+    display: flex;
+    height: 527px;
+    justify-content: space-between;
+}
+.bannerImg{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #183E32;
+    background-image: url(../../../assets/img/sonaBanner.png);
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    height: inherit;
+    width: 934px;
+}
+.bannerImgContainner{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #183E32;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    height: inherit;
+    width: 50%;
+    transition:  .4s;
+    /*transiçã mudando ao redimensionar tela*/
+    /*TODO: arrumar isso ai*/
+}
+
+.bannerImgContainner:hover{
+    height: inherit;
+    width: 60%;
+    transition:  .4s;
+}
+/*TODO: passar os center par left a partir de um certo tamanho de tela pra ficar bonitin :)*/
+.bannerImg::after{
+    display: block;
+    position: relative;
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(to right, transparent 0%,#183e3256 70%, #183e32 98%);
+    content: '';
+    /*mds que gambiarraaaaa*/
+}
+
+
+.bannerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #183E32 1%, black 99%);
+    width: 100%;
+    color: white;
+}
+.bannerText h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bannerText h1::after{
+    content: '';
+    align-items: center;
+    width: 250px;
+    height: 1px;
+    display: block;
+    background-color: white;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+#inscrevaseButton{
+    width: 290px;
+    height: 60px;
+    border: none;
+    background: #276452;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.bannerNav{
+    width:100%;
+    height:inherit;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    pointer-events: none;
+    align-items: flex-end;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.bannerNavArrow{
+    pointer-events: all;
+    position: relative;
+    height: 50%;
+    width: 7%;
+    margin-bottom: auto;
+    margin-top: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff1a;
+    cursor: pointer;
+}
+.bannerNavArrow:hover{
+    background-color: #aaaaaa91;
+    cursor: pointer;
+    transition: .3s;
+}
+.bannerNavOption{
+    pointer-events: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 15%;
+    opacity: 50%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1100px){
+.banner{
+    transition: 0ms;
+    height: 300px;
+}
+.bannerImgContainner{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.bannerImg::after{
+    justify-content: center;
+    align-items: center;
+}
+.bannerImgContainner::after{
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerImg{
+    justify-content: center;
+    align-items: center;
+}
+}
