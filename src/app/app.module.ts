@@ -8,6 +8,9 @@ import { HeaderComponent } from './templates/header/header.component';
 import { InicioComponent } from './views/inicio/inicio.component';
 import { BannerComponent } from './templates/banner/banner.component';
 import { GamesNavComponent } from './templates/games-nav/games-nav.component';
+import { CampeonatosComponent } from './views/campeonatos/campeonatos.component';
+import { FooterComponent } from './templates/footer/footer.component';
+import { NoticiasComponent } from './views/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { GamesNavComponent } from './templates/games-nav/games-nav.component';
     HeaderComponent,
     InicioComponent,
     BannerComponent,
-    GamesNavComponent
+    GamesNavComponent,
+    CampeonatosComponent,
+    FooterComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,

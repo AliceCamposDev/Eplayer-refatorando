@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "email": "krlos@gmail.com",
+      "password": "senha",
+      "nome": "carlos",
+      "id": 2
+    },
+    {
+      "email": "jorginho1337@gmail.com",
+      "password": "password",
+      "nome": "jorge",
+      "id": 3
+    }
+  ],
+  "noticias": [
+    {
+      "titulo": "league of legends faliu",
+      "descricao": "riot nao tankou a função de balancear o jogo e todos os jogadores kitaram pra ir jogar outros jogos",
+      "imagem": "lolFaliu.png",
+      "id": 1
+    }
+  ]
+}
