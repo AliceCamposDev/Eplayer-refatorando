@@ -17,7 +17,7 @@ export class BannerComponent {
     const bannerRightArrow = (document.getElementById("bannerRightArrow") as HTMLInputElement | null);
     
     mudarSlideDireita();
-    setInterval(mudarSlideDireita, 5000);
+    setInterval(mudarSlideDireita, 7000);
     /*//TODO: resetar timer se botão clicado*/
 
     bannerLeftArrow?.addEventListener("click",mudarSlideEsquerda);
