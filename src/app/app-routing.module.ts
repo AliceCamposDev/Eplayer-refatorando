@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { InicioComponent } from './views/inicio/inicio.component';
 import {LoginComponent} from './views/login/login.component';
 import {CampeonatosComponent} from './views/campeonatos/campeonatos.component';

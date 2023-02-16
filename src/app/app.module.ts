@@ -12,6 +12,8 @@ import { CampeonatosComponent } from './views/campeonatos/campeonatos.component'
 import { FooterComponent } from './templates/footer/footer.component';
 import { NoticiasComponent } from './views/noticias/noticias.component';
 import { CardNoticiasComponent } from './templates/card-noticias/card-noticias.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,14 @@ import { CardNoticiasComponent } from './templates/card-noticias/card-noticias.c
     CampeonatosComponent,
     FooterComponent,
     NoticiasComponent,
-    CardNoticiasComponent
+    CardNoticiasComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
