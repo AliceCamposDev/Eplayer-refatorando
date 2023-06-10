@@ -1,16 +1,22 @@
 {
   "users": [
     {
-      "email": "krlos@gmail.com",
-      "password": "senha",
-      "nome": "carlos",
-      "id": 2
+      "email": "joao@email.com",
+      "password": "$2a$10$g2cEZzteOe5tMrjhmYW0oeuJQ.kwWbPalwNCIJQEMWoGKkaD1edEO",
+      "nome": "joao",
+      "id": "b7FrVoR"
     },
     {
-      "email": "jorginho1337@gmail.com",
-      "password": "password",
-      "nome": "jorge",
-      "id": 3
+      "email": "aaaaaa@aaaaa.com",
+      "password": "$2a$10$E3G1zEr7z0Zrmei7u8sk2uJTcsM3iI9/tuQj9pXqEiNyOOXmMGByG",
+      "nome": "aaaaaa",
+      "id": "xSmVp78"
+    },
+    {
+      "email": "pankkjkk@gmail.com",
+      "password": "$2a$10$ivml9y6BKpHedzIHOvhJBO4cTAg1ALodylSUhA/dz9CTkO3gYarPm",
+      "nome": "pan",
+      "id": "soQ46fv"
     }
   ],
   "noticias": [
@@ -19,7 +25,7 @@
       "descricao": "riot nao tankou a função de balancear o jogo e todos os jogadores kitaram pra ir jogar outros jogos",
       "imagem": "lolFaliu.png",
       "data": "11/02/2023",
-      "link":"https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/01/15159521-league-of-legends-fora-do-ar-confira-servidor-do-lol-br-e-como-se-conectar-a-fila-de-login.html",
+      "link": "https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/01/15159521-league-of-legends-fora-do-ar-confira-servidor-do-lol-br-e-como-se-conectar-a-fila-de-login.html",
       "id": 1
     }
   ]

@@ -15,25 +15,30 @@
     width: 141px;
     height: 47px;
     background: #262924;
-    border-radius: 2px;
     font-size: 16;
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 3px;;
     cursor: pointer;
     color: white;
-
-
+    transition-duration: .3s;
 }
-.headerButton:hover{
-    background: #363835;
+
+.headerButton:hover {
+    background: #4d4e4d;
     border: solid 1px;
     border-color: #343631;
+    transition-duration: .3s;
 }
 
 .buttonContainer{
-    align-items: center;
-    padding: 20px;
+    display: flex;
+    width: 600px;
+    margin-right:5%;
+    justify-content: space-between;
 }
 .logo{
     width: 190px;
+    cursor: pointer;
 }
 .logoContainer{
     display: flex;

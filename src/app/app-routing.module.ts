@@ -6,9 +6,7 @@ import {CampeonatosComponent} from './views/campeonatos/campeonatos.component';
 import {NoticiasComponent} from './views/noticias/noticias.component';
 
 const routes: Routes = [
-  //index (não sei se é ok fazer assim mas funciona)
   {path: '', component: InicioComponent},
-
   {path: 'login', component: LoginComponent},
   {path: 'inicio', component: InicioComponent},
   {path: 'campeonatos', component: CampeonatosComponent},

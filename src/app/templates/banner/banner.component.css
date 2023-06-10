@@ -73,13 +73,18 @@
 #inscrevaseButton{
     width: 290px;
     height: 60px;
-    border: none;
+    border: 1px solid black;
     background: #276452;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: .3s;
     border-radius: 10px;
     font-size: larger;
     color: white;
     cursor: pointer;
+}
+#inscrevaseButton:hover{
+    transition-duration: .3s;
+    background: #43a184;
 }
 .bannerNav{
     width:100%;
@@ -108,6 +113,7 @@
     justify-content: center;
     background-color: #ffffff1a;
     cursor: pointer;
+    border-radius: 8px;
 }
 .bannerNavArrow:hover{
     background-color: #aaaaaa91;
