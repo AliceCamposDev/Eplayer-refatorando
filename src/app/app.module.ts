@@ -14,6 +14,7 @@ import { NoticiasComponent } from './views/noticias/noticias.component';
 import { CardNoticiasComponent } from './templates/card-noticias/card-noticias.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { RegistrarComponent } from './views/registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     NoticiasComponent,
     CardNoticiasComponent,
+    RegistrarComponent,
     
   ],
   imports: [
