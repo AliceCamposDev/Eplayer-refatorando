@@ -13,10 +13,16 @@
       "id": "xSmVp78"
     },
     {
-      "email": "pankkjkk@gmail.com",
-      "password": "$2a$10$ivml9y6BKpHedzIHOvhJBO4cTAg1ALodylSUhA/dz9CTkO3gYarPm",
-      "nome": "pan",
-      "id": "soQ46fv"
+      "email": "user@user",
+      "password": "$2a$10$qKaMVx8pXkC4fGOOlajZAeA12D34zXxFTA/W4fAAg8wuLxWWKH7Vy",
+      "nome": "user",
+      "id": "K8bckHV"
+    },
+    {
+      "email": "333@33",
+      "password": "$2a$10$So0UXlZAHDVdvj4/OeIpmucPP3a.X/zpfv9/BDMp4rM7d//11U1M.",
+      "nome": "33",
+      "id": "_6oPFwq"
     }
   ],
   "noticias": [

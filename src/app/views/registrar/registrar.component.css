@@ -1,0 +1,16 @@
+form{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+form input{
+
+}
+.content{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

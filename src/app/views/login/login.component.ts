@@ -29,7 +29,6 @@ export class LoginComponent implements OnInit {
     const listaPalavras: string[] = ["select", "from", "drop", "or ", "having ", "group", "insert", "exec ", "\"", "\'", "--", "#", "*", ";"]
 
     listaPalavras.forEach(palavra => {
-      //console.log("palavra atual: ", palavra)
 
       if (this.loginModel.email.toLowerCase().includes(palavra)) {
         console.log("Palavra Encontrada: ", palavra)
@@ -43,6 +42,8 @@ export class LoginComponent implements OnInit {
 
       this.authService.login(this.loginModel).subscribe((response) => {
         console.log("Sucesso!");
+        this.router.navigate(['/']);
+
       }, (respostaErro) => {
         this.mensagem = respostaErro.error;
       })

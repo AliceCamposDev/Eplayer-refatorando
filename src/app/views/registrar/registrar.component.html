@@ -1,1 +1,11 @@
-<p>registrar works!</p>
+<section class="content">
+    <form action="" (ngSubmit)="onSubmit()">
+        <input type="text" name = "nome" id="nome" class="registrarInput" placeholder=" Nome" [(ngModel)]="registerModel.nome" required />
+        <br> 
+        <input type="email" name="email" id="email" class="registrarInput" placeholder=" E-mail" [(ngModel)]="registerModel.email" required />
+        <br>
+        <input type="password" name = "password" id="senha" class="registrarInput" placeholder=" Senha" [(ngModel)]="registerModel.password" required />
+        <br> 
+        <button type="submit">Registrar</button>
+    </form>
+</section>

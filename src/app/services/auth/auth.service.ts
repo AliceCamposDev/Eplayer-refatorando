@@ -10,12 +10,20 @@ export class AuthService {
 
   constructor(private httpClient: HttpClient) { }
 
-  url = "http://localhost:3000/login"
+  url = "http://localhost:3000"
 
   login(user: User): Observable<any>{
-    return this.httpClient.post(this.url, JSON.stringify(user), {
+    return this.httpClient.post(this.url + '/login' , JSON.stringify(user), {
       headers: new HttpHeaders({ 'Content-Type': 'application/json'}),
       observe: "response"
     })
   }
+
+  registrar(user: User): Observable<any>{
+    return this.httpClient.post(this.url + '/register' , JSON.stringify(user), {
+      headers: new HttpHeaders({ 'Content-Type': 'application/json'}),
+      observe: "response"
+    })
+  }
+
 }
