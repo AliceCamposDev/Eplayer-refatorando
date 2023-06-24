@@ -29,6 +29,14 @@
       "password": "$2a$10$dxQ8qLg8qmMJbqi4AyJNXen36icn4.e6dllJQZ5XV4Forl2xRXEXO",
       "nome": "pan",
       "id": "KzAcsLI"
+    },
+    {
+      "email": "user333@email.com",
+      "password": "$2a$10$SxcyZlkStlny8CRGTE0Ms.7UD97CUqmAdxfTCaRkcD/Bh8sXL24ym",
+      "nome": "usuario333",
+      "confEmail": "user333@email.com",
+      "confSenha": "123456",
+      "id": "5SEqg9E"
     }
   ],
   "noticias": [

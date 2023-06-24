@@ -33,6 +33,12 @@ export class RegistrarComponent {
       erroEncontrado = 1;
     }
 
+    if (this.registerModel.password !== this.registerModel.confSenha) {
+      this.mensagem = "As senhas não correspondem.";
+
+      erroEncontrado = 1;
+    }
+
     
 
     const listaPalavras: string[] = ["select", "from", "drop", "or ", "having ", "group", "insert", "exec ", "\"", "\'", "--", "#", "*", ";"]
