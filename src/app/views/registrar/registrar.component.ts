@@ -25,9 +25,15 @@ export class RegistrarComponent {
   onSubmit() {
     console.log(this.registerModel)
 
-
-
     let erroEncontrado = 0;
+
+    if (this.registerModel.email !== this.registerModel.confEmail) {
+      this.mensagem = "Os endereços de e-mail não correspondem.";
+
+      erroEncontrado = 1;
+    }
+
+    
 
     const listaPalavras: string[] = ["select", "from", "drop", "or ", "having ", "group", "insert", "exec ", "\"", "\'", "--", "#", "*", ";"]
 

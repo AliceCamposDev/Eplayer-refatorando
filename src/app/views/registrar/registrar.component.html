@@ -4,8 +4,14 @@
         <br> 
         <input type="email" name="email" id="email" class="registrarInput" placeholder=" E-mail" [(ngModel)]="registerModel.email" required />
         <br>
+        <input type="email" name="confEmail" id="confEmail" class="registrarInput" placeholder=" E-mail" required />
+        <br>
         <input type="password" name = "password" id="senha" class="registrarInput" placeholder=" Senha" [(ngModel)]="registerModel.password" required />
         <br> 
+        <input type="password" name = "confPassword" id="confSenha" class="registrarInput" placeholder=" Senha" required />
+        <br> 
+        <p  id="mensagem">{{ mensagem }}</p>
+        <br>
         <button type="submit">Registrar</button>
     </form>
 </section>
