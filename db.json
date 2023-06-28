@@ -31,12 +31,10 @@
       "id": "KzAcsLI"
     },
     {
-      "email": "user333@email.com",
-      "password": "$2a$10$SxcyZlkStlny8CRGTE0Ms.7UD97CUqmAdxfTCaRkcD/Bh8sXL24ym",
-      "nome": "usuario333",
-      "confEmail": "user333@email.com",
-      "confSenha": "123456",
-      "id": "5SEqg9E"
+      "email": "teste@teste",
+      "password": "$2a$10$UEhYuYzZYUye1uT2cftl1.CEWZjN5FQlpAhBVAUvyH/mI86qZYh36",
+      "nome": "teste",
+      "id": "67-Jmb1"
     }
   ],
   "noticias": [

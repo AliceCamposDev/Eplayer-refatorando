@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../../services/auth/auth.service';
 import { User } from '../../models/user/user';
+import { UserRaw } from '../../models/user-raw/user-raw';
 import { Router } from '@angular/router';
 
 
@@ -16,24 +17,25 @@ export class RegistrarComponent {
   ngOnInit(): void {
   }
 
-  registerModel = new User();
+  registerModelRaw = new UserRaw();
+  registerModel = new User(); 
 
   mensagem = "";
 
   registrado = "";
 
   onSubmit() {
-    console.log(this.registerModel)
+    console.log(this.registerModelRaw)
 
     let erroEncontrado = 0;
 
-    if (this.registerModel.email !== this.registerModel.confEmail) {
+    if (this.registerModelRaw.email !== this.registerModelRaw.confEmail) {
       this.mensagem = "Os endereços de e-mail não correspondem.";
 
       erroEncontrado = 1;
     }
 
-    if (this.registerModel.password !== this.registerModel.confSenha) {
+    if (this.registerModelRaw.password !== this.registerModelRaw.confSenha) {
       this.mensagem = "As senhas não correspondem.";
 
       erroEncontrado = 1;
@@ -45,7 +47,7 @@ export class RegistrarComponent {
 
     listaPalavras.forEach(palavra => {
 
-      if (this.registerModel.email.toLowerCase().includes(palavra)) {
+      if (this.registerModelRaw.email.toLowerCase().includes(palavra)) {
         console.log("Palavra Encontrada: ", palavra)
         this.mensagem = "Dados Inválidos: " + palavra;
 
@@ -54,6 +56,9 @@ export class RegistrarComponent {
     })
 
     if (erroEncontrado == 0) {
+      this.registerModel.email = this.registerModelRaw.email;
+      this.registerModel.nome = this.registerModelRaw.nome;
+      this.registerModel.password = this.registerModelRaw.password;
 
       this.authService.registrar(this.registerModel).subscribe((response) => {
         console.log("Sucesso!");
