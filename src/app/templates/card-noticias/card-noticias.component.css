@@ -4,6 +4,7 @@
 .noticiaBox{
     background-color: black;
     display: flex;
+    height: 250px;
 }
 .texto{
     width: 100%;

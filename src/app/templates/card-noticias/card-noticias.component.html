@@ -1,5 +1,4 @@
-<a
-    href="https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/01/15159521-league-of-legends-fora-do-ar-confira-servidor-do-lol-br-e-como-se-conectar-a-fila-de-login.html" target="_blank">
+<a href="https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/01/15159521-league-of-legends-fora-do-ar-confira-servidor-do-lol-br-e-como-se-conectar-a-fila-de-login.html" target="_blank">
     <div class="noticiaBox">
         <div class="imagem">
             <img src="../../../assets/img/xboxNoticia.jpg" alt="">
@@ -11,3 +10,26 @@
         </div>
     </div>
 </a>
+
+
+
+
+
+<div *ngFor="let noticias of listaNoticias" class="cardnews">
+    <a href="{{noticias.link}}">
+        <div class="noticiaBox">
+            <div class="imagem">
+                <img src="../../../assets/img/{{noticias.imagem}}" alt="">
+            </div>
+            <div class="texto">
+                <div class="texto">
+                    <h3>{{noticias.titulo}}</h3>
+                    <p>{{noticias.descricao}}</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </a>
+</div>
