@@ -4,7 +4,7 @@
     color: white;
     display: flex;
     position: relative;
-    
+    overflow: hidden;
 }
 .texto{
     width: 50%;
@@ -19,10 +19,12 @@
     align-items: center;
 }
 .imagem{
+    overflow: visible;
     width: 50%;
     z-index: 2;
 }
 img{
+    overflow: visible;
     height: 120%;
     position: absolute;
     bottom: 0;
@@ -30,6 +32,7 @@ img{
 h2{
     margin-bottom: 20px;
 }
+
 .container::before {
     content: "";
     position: absolute;
