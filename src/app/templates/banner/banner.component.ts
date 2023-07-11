@@ -29,7 +29,6 @@ export class BannerComponent {
       if (slideAtual == 2) {
         if (bannerImg)
           bannerImg.style.backgroundImage = listaSlides[1];
-        //TODO: AHAHAHAHAHAHAHAHA NAO É NULL CARA ACABEI DE TESTAR ENCIMA AHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH
         slideAtual = 1;
         if (radio0)
           radio0.checked = false;

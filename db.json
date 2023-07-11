@@ -45,6 +45,37 @@
       "data": "11/02/2023",
       "link": "https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/01/15159521-league-of-legends-fora-do-ar-confira-servidor-do-lol-br-e-como-se-conectar-a-fila-de-login.html",
       "id": 1
+    },
+    {
+      "titulo": "league of legends faliu mesmo",
+      "descricao": "riot nao tankou mesmo a função de balancear o jogo e todos os jogadores kitaram pra ir jogar outros jogos",
+      "imagem": "lolFaliu.png",
+      "data": "10/07/2023",
+      "link": "https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/01/15159521-league-of-legends-fora-do-ar-confira-servidor-do-lol-br-e-como-se-conectar-a-fila-de-login.html",
+      "id": 2
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "500 RP",
+      "descricao": "300 Riot points para League of Legends",
+      "imagem": "rp.jpg",
+      "preco": 10,
+      "id": 1
+    },
+    {
+      "nome": "1000 RP",
+      "descricao": "1000 Riot points para League of Legends",
+      "imagem": "rp.jpg",
+      "preco": 18,
+      "id": 2
+    },
+    {
+      "nome": "2000 RP",
+      "descricao": "2000 Riot points para League of Legends",
+      "imagem": "rp.jpg",
+      "preco": 30,
+      "id": 3
     }
   ]
 }

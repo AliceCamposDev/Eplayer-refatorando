@@ -16,6 +16,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RegistrarComponent } from './views/registrar/registrar.component';
 import { ContaComponent } from './views/conta/conta.component';
+import { CardProdutosComponent } from './templates/card-produtos/card-produtos.component';
+import { LojaComponent } from './templates/loja/loja.component';
+import { LigasComponent } from './templates/ligas/ligas.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,9 @@ import { ContaComponent } from './views/conta/conta.component';
     CardNoticiasComponent,
     RegistrarComponent,
     ContaComponent,
+    CardProdutosComponent,
+    LojaComponent,
+    LigasComponent,
     
   ],
   imports: [

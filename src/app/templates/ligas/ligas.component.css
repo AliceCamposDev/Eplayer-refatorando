@@ -1,0 +1,42 @@
+.container{
+    background-color: black;
+    height: 450px;
+    color: white;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.texto{
+    width: 50%;
+    padding: 50px;
+    font-size: x-large;
+    text-align: justify;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+;
+    align-items: center;
+}
+.imagem{
+    width: 50%;
+    z-index: 2;
+}
+img{
+    width: 200%;
+    z-index: 2;
+}
+h2{
+    margin-bottom: 20px;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    bottom: -200px; 
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background-color: green;
+    transform: skewY(-4deg);
+    transform-origin: top left;
+}
