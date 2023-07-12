@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    padding:  10px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.redes{
+    background-color: white;
+}
