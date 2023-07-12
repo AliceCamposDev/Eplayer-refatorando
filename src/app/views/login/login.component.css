@@ -1,20 +1,21 @@
 .loginPage{
     display: flex;
-    height: 100%;
-    background-image: linear-gradient(to  bottom right, rgb(255, 255, 255), rgb(0, 0, 0));
+    height: 100vh;
+    background-color: gray;
 }
-.planos{
-    width: 60%;
+.left-login{
+    width: 50%;
     height: 900px;
-    background-image: url(/assets/img/luma.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
+
 h2 {
     text-align: center;
   }
+  
 .formContainer{
     background-color: #fff;
     border-radius: 5px;
@@ -25,15 +26,6 @@ h2 {
 
 
 
-body {
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
  
  
   
@@ -60,13 +52,4 @@ body {
   button[type="submit"]:hover {
     background-color: #45a049;
   }
-/*
-<div class="card">     
-    <h2>Login</h2>     
-    <form>       
-        <input type="text" placeholder="Nome de usuário" required>       
-        <input type="password" placeholder="Senha" required>       
-        <button type="submit">Entrar</button>     
-    </form>   
-</div>
-*/
+

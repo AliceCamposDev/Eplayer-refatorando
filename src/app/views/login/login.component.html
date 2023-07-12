@@ -1,24 +1,25 @@
 <div class="loginPage">
-    <div class="planos">
-
+    <div class="left-login">
+        <h2>Faça Login</h2>
+        <img id="img" src="" class="left-login-img" alt="pessoas animação">
+        <h2 id="texto2">E entre para nosso time!</h2>
     </div>
-    <div class="formContainer">
-        <h2>Login</h2>    
+    <div class="card-login">
+        <h1>LOGIN</h1>
         <form action="#" (ngSubmit)="onSubmit()" method="post" id="loginForm">
-            <input type="email" name="email" id="email" class="loginInput" placeholder=" E-mail" [(ngModel)]="loginModel.email" required />
-            <br>
-            <input type="password" name = "password" id="senha" class="loginInput" placeholder=" Senha" [(ngModel)]="loginModel.password" required />
-            <br> 
-            <p  id="mensagem">{{ mensagem }}</p>
-            <button type="submit" id="loginButton">Logar</button>
-        </form>
-        
-        <div class="registerBox">
+            <div class="textfield">
+                <label for="senha">E-mail</label>
+                <input type="email" name="email" id="email" class="loginInput" placeholder=" E-mail"
+                [(ngModel)]="loginModel.email" required />
+            </div>
            
-            <button routerLink="/registrar">Registrar</button>
-            <a href="#">Recuperar conta</a>
-        </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" name="password" id="senha" class="loginInput" placeholder=" Senha"
+                [(ngModel)]="loginModel.password" required />
+            </div>
+            <p id="mensagem">{{ mensagem }}</p>
+            <button type="submit" id="loginButton">Login</button>
+        </form>
     </div>
-    
 </div>
-
