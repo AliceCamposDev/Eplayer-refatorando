@@ -58,7 +58,7 @@
   "produtos": [
     {
       "nome": "500 RP",
-      "descricao": "300 Riot points para League of Legends",
+      "descricao": "500 Riot points para League of Legends",
       "imagem": "rp.jpg",
       "preco": 10,
       "id": 1
@@ -76,6 +76,27 @@
       "imagem": "rp.jpg",
       "preco": 30,
       "id": 3
+    },
+    {
+      "nome": "500 VP",
+      "descricao": "500 Valorant points para Valorant",
+      "imagem": "vp.png",
+      "preco": 10,
+      "id": 4
+    },
+    {
+      "nome": "1000 VP",
+      "descricao": "1000 Valorant points para Valorant",
+      "imagem": "vp.png",
+      "preco": 18,
+      "id": 5
+    },
+    {
+      "nome": "2000 VP",
+      "descricao": "2000 Valorant points para Valorant",
+      "imagem": "vp.png",
+      "preco": 30,
+      "id": 6
     }
   ]
 }

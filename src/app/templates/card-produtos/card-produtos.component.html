@@ -1,15 +1,17 @@
-<div *ngFor="let produtos of listaProdutos" class="card">
-            <div class="imagem">
-                <img src="../../../assets/img/{{produtos.imagem}}" alt="">
-            </div>
+<div class="container">
+    <div *ngFor="let produtos of listaProdutos" class="card">
+        <div class="imagem">
+            <img src="../../../assets/img/{{produtos.imagem}}" alt="">
+        </div>
+        <div class="texto">
             <div class="texto">
-                <div class="texto">
-                    <h3>{{produtos.nome}}</h3>
-                    <p>{{produtos.descricao}}</p>
-                    <p class="preco">R$ {{produtos.preco}},00</p>
-                </div>
+                <h3>{{produtos.nome}}</h3>
+                <p>{{produtos.descricao}}</p>
+                <p class="preco">R$ {{produtos.preco}},00</p>
             </div>
-            <div>
-                <button>Comprar</button>
-            </div>
+        </div>
+        <div>
+            <button>Comprar</button>
+        </div>
+</div>
 </div>
